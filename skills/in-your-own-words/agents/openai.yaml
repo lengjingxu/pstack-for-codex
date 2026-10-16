@@ -1,0 +1,4 @@
+interface:
+  display_name: "in-your-own-words"
+policy:
+  allow_implicit_invocation: false

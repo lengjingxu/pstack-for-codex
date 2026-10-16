@@ -1,0 +1,4 @@
+interface:
+  display_name: "setup-pstack"
+policy:
+  allow_implicit_invocation: true

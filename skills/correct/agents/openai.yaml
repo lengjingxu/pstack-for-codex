@@ -1,0 +1,4 @@
+interface:
+  display_name: "correct"
+policy:
+  allow_implicit_invocation: false

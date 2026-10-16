@@ -1,0 +1,4 @@
+interface:
+  display_name: "principle-migrate-callers-then-delete-legacy-apis"
+policy:
+  allow_implicit_invocation: false

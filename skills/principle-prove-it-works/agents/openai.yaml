@@ -1,0 +1,4 @@
+interface:
+  display_name: "principle-prove-it-works"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,4 @@
+interface:
+  display_name: "blast-radius"
+policy:
+  allow_implicit_invocation: false

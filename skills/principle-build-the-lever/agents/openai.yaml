@@ -1,0 +1,4 @@
+interface:
+  display_name: "principle-build-the-lever"
+policy:
+  allow_implicit_invocation: false

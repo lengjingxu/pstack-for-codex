@@ -1,0 +1,4 @@
+interface:
+  display_name: "principle-explain-the-number"
+policy:
+  allow_implicit_invocation: false

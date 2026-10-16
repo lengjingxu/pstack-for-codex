@@ -1,0 +1,4 @@
+interface:
+  display_name: "automate-me"
+policy:
+  allow_implicit_invocation: false

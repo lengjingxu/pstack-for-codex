@@ -1,0 +1,4 @@
+interface:
+  display_name: "principle-exhaust-the-design-space"
+policy:
+  allow_implicit_invocation: false

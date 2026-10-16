@@ -1,0 +1,4 @@
+interface:
+  display_name: "why"
+policy:
+  allow_implicit_invocation: false

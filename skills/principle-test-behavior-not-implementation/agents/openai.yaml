@@ -1,0 +1,4 @@
+interface:
+  display_name: "principle-test-behavior-not-implementation"
+policy:
+  allow_implicit_invocation: false

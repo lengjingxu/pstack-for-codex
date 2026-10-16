@@ -1,0 +1,4 @@
+interface:
+  display_name: "principle-separate-before-serializing-shared-state"
+policy:
+  allow_implicit_invocation: false
