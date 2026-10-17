@@ -46,6 +46,15 @@
 
 ## 설치
 
+빠른 설치:
+
+```bash
+git clone --depth 1 https://github.com/lengjingxu/pstack-for-codex.git /tmp/pstack-for-codex
+bash /tmp/pstack-for-codex/scripts/install.sh
+```
+
+또는 직접 복사:
+
 ```bash
 git clone https://github.com/lengjingxu/pstack-for-codex.git /tmp/pstack-for-codex
 

@@ -46,6 +46,15 @@ The rule this port holds to: map a vendor feature to a Codex primitive when one 
 
 ## Install
 
+Quick install:
+
+```bash
+git clone --depth 1 https://github.com/lengjingxu/pstack-for-codex.git /tmp/pstack-for-codex
+bash /tmp/pstack-for-codex/scripts/install.sh
+```
+
+Or copy by hand:
+
 ```bash
 git clone https://github.com/lengjingxu/pstack-for-codex.git /tmp/pstack-for-codex
 

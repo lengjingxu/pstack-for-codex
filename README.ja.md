@@ -46,6 +46,15 @@
 
 ## インストール
 
+クイックインストール：
+
+```bash
+git clone --depth 1 https://github.com/lengjingxu/pstack-for-codex.git /tmp/pstack-for-codex
+bash /tmp/pstack-for-codex/scripts/install.sh
+```
+
+または手動でコピー：
+
 ```bash
 git clone https://github.com/lengjingxu/pstack-for-codex.git /tmp/pstack-for-codex
 

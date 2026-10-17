@@ -46,6 +46,15 @@ La règle que ce dépôt s'impose : faire correspondre une fonctionnalité du ve
 
 ## Installation
 
+Installation rapide :
+
+```bash
+git clone --depth 1 https://github.com/lengjingxu/pstack-for-codex.git /tmp/pstack-for-codex
+bash /tmp/pstack-for-codex/scripts/install.sh
+```
+
+Ou copiez à la main :
+
 ```bash
 git clone https://github.com/lengjingxu/pstack-for-codex.git /tmp/pstack-for-codex
 
