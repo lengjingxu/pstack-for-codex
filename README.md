@@ -1,4 +1,14 @@
+![pstack for Codex](assets/banner.svg)
+
 # pstack for Codex
+
+[![Stars](https://img.shields.io/github/stars/lengjingxu/pstack-for-codex?style=flat-square&color=4ade80)](https://github.com/lengjingxu/pstack-for-codex/stargazers)
+[![License](https://img.shields.io/github/license/lengjingxu/pstack-for-codex?style=flat-square)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/lengjingxu/pstack-for-codex?style=flat-square)](https://github.com/lengjingxu/pstack-for-codex/commits/main)
+![Skills](https://img.shields.io/badge/skills-54-4ade80?style=flat-square)
+![Playbooks](https://img.shields.io/badge/playbooks-23-4ade80?style=flat-square)
+![Principles](https://img.shields.io/badge/principles-24-4ade80?style=flat-square)
+
 
 **pstack for Codex** is a Codex-native port of [pstack](https://github.com/cursor/plugins/tree/main/pstack) by Lauren Tan. Same working method, same playbooks, same principles, rewired to run on Codex instead of Cursor.
 
@@ -83,6 +93,10 @@ docs/guide/             the upstream guide, adapted
 pstack is by [Lauren Tan](https://x.com/poteto) and lives in [cursor/plugins](https://github.com/cursor/plugins). The method, the playbooks, the principles, and the prose are hers. This repository is a port, not a fork in spirit: it changes the host wiring and leaves the thinking alone.
 
 Licensed MIT, same as upstream. See [LICENSE](LICENSE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+## If this is useful
+
+A star helps other Codex users find it. Issues, ports to other hosts, and corrections to the mapping are all welcome.
 
 ## Languages
 

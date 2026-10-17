@@ -1,4 +1,14 @@
+![pstack for Codex](assets/banner.svg)
+
 # pstack for Codex
+
+[![Stars](https://img.shields.io/github/stars/lengjingxu/pstack-for-codex?style=flat-square&color=4ade80)](https://github.com/lengjingxu/pstack-for-codex/stargazers)
+[![License](https://img.shields.io/github/license/lengjingxu/pstack-for-codex?style=flat-square)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/lengjingxu/pstack-for-codex?style=flat-square)](https://github.com/lengjingxu/pstack-for-codex/commits/main)
+![Skills](https://img.shields.io/badge/skills-54-4ade80?style=flat-square)
+![Playbooks](https://img.shields.io/badge/playbooks-23-4ade80?style=flat-square)
+![Principles](https://img.shields.io/badge/principles-24-4ade80?style=flat-square)
+
 
 **pstack for Codex** 는 Lauren Tan이 만든 [pstack](https://github.com/cursor/plugins/tree/main/pstack) 을 Codex용으로 옮긴 포트입니다. 같은 작업 방식, 같은 플레이북, 같은 원칙을 Cursor 대신 Codex에서 돌도록 다시 배선했습니다.
 

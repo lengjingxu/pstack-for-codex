@@ -1,4 +1,14 @@
+![pstack for Codex](assets/banner.svg)
+
 # pstack for Codex
+
+[![Stars](https://img.shields.io/github/stars/lengjingxu/pstack-for-codex?style=flat-square&color=4ade80)](https://github.com/lengjingxu/pstack-for-codex/stargazers)
+[![License](https://img.shields.io/github/license/lengjingxu/pstack-for-codex?style=flat-square)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/lengjingxu/pstack-for-codex?style=flat-square)](https://github.com/lengjingxu/pstack-for-codex/commits/main)
+![Skills](https://img.shields.io/badge/skills-54-4ade80?style=flat-square)
+![Playbooks](https://img.shields.io/badge/playbooks-23-4ade80?style=flat-square)
+![Principles](https://img.shields.io/badge/principles-24-4ade80?style=flat-square)
+
 
 **pstack for Codex** は、Lauren Tan による [pstack](https://github.com/cursor/plugins/tree/main/pstack) を Codex 向けに移植したものです。同じ仕事の進め方、同じプレイブック、同じ原則を、Cursor ではなく Codex で動くように配線し直しています。
 

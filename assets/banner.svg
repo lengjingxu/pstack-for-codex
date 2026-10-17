@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="pstack for Codex">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0F14"/>
+      <stop offset="55%" stop-color="#101722"/>
+      <stop offset="100%" stop-color="#0B0F14"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4ADE80" stop-opacity="0.15"/>
+      <stop offset="60%" stop-color="#4ADE80" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#4ADE80" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="slab" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1B2533"/>
+      <stop offset="100%" stop-color="#121A24"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="400" fill="url(#bg)"/>
+
+  <g opacity="0.5" stroke="#1E2937" stroke-width="1">
+    <path d="M0 80 H1280 M0 160 H1280 M0 240 H1280 M0 320 H1280"/>
+  </g>
+
+  <g transform="translate(760 60)">
+    <g opacity="0.95">
+      <rect x="0" y="0" width="200" height="34" rx="6" fill="url(#slab)" stroke="#2A3746"/>
+      <rect x="24" y="52" width="200" height="34" rx="6" fill="url(#slab)" stroke="#2A3746"/>
+      <rect x="48" y="104" width="200" height="34" rx="6" fill="url(#slab)" stroke="#2A3746"/>
+      <rect x="72" y="156" width="200" height="34" rx="6" fill="url(#slab)" stroke="#2A3746"/>
+      <rect x="96" y="208" width="200" height="34" rx="6" fill="url(#slab)" stroke="#2A3746"/>
+    </g>
+    <g stroke="url(#rail)" stroke-width="2" fill="none" stroke-linecap="round">
+      <path d="M188 17 C 260 17, 270 69, 340 69"/>
+      <path d="M212 69 C 270 69, 286 121, 356 121"/>
+      <path d="M236 121 C 286 121, 302 173, 372 173"/>
+      <path d="M260 173 C 302 173, 318 225, 388 225"/>
+    </g>
+    <g fill="#4ADE80">
+      <circle cx="188" cy="17" r="4"/>
+      <circle cx="212" cy="69" r="4"/>
+      <circle cx="236" cy="121" r="4"/>
+      <circle cx="260" cy="173" r="4"/>
+      <circle cx="284" cy="225" r="4"/>
+    </g>
+    <g fill="none" stroke="#F59E0B" stroke-width="2" opacity="0.9">
+      <path d="M388 225 a14 14 0 0 1 0 -28 a14 14 0 0 1 0 28"/>
+    </g>
+  </g>
+
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="80" y="176" fill="#E6EDF3" font-size="74" font-weight="700" letter-spacing="-1.5">pstack for Codex</text>
+    <text x="82" y="228" fill="#8B98A5" font-size="27">Rigorous agent workflows, ported to Codex.</text>
+    <g fill="#4ADE80" font-size="20" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+      <text x="82" y="292">54 skills</text>
+      <text x="196" y="292" fill="#2A3746">/</text>
+      <text x="216" y="292">23 playbooks</text>
+      <text x="378" y="292" fill="#2A3746">/</text>
+      <text x="398" y="292">24 principles</text>
+    </g>
+  </g>
+</svg>
