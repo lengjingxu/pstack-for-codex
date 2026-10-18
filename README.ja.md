@@ -2,6 +2,8 @@
 
 # pstack for Codex
 
+> 注：最新の採用データとコミュニティ引用は英語版と中国語版にあります。この翻訳は更新中です。
+
 [![validate](https://github.com/lengjingxu/pstack-for-codex/actions/workflows/validate.yml/badge.svg)](https://github.com/lengjingxu/pstack-for-codex/actions/workflows/validate.yml)
 [![Stars](https://img.shields.io/github/stars/lengjingxu/pstack-for-codex?style=flat-square&color=4ade80)](https://github.com/lengjingxu/pstack-for-codex/stargazers)
 [![License](https://img.shields.io/github/license/lengjingxu/pstack-for-codex?style=flat-square)](LICENSE)
@@ -111,4 +113,3 @@ pstack は [Lauren Tan](https://x.com/poteto) の作品で、[cursor/plugins](ht
 - [Français](README.fr.md)
 - [日本語](README.ja.md)
 - [한국어](README.ko.md)
-

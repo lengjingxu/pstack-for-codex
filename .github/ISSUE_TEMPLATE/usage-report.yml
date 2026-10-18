@@ -1,0 +1,56 @@
+name: Usage report
+description: Share how pstack for Codex performed on a real task.
+title: "[usage] "
+labels: ["usage-report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for trying pstack for Codex. Please report what you ran and what changed. Do not include credentials, customer data, or private code.
+  - type: input
+    id: task
+    attributes:
+      label: Task and playbook
+      description: What task did you run, and which playbook did `$poteto-mode` pick?
+      placeholder: "bug fix on a retry race; playbook: bug fix"
+    validations:
+      required: true
+  - type: input
+    id: host
+    attributes:
+      label: Codex version and host
+      description: Codex version, OS, and model configuration.
+      placeholder: "Codex 0.x, macOS 26, gpt-6-astra"
+    validations:
+      required: true
+  - type: textarea
+    id: before
+    attributes:
+      label: Before pstack
+      description: How did the same task go without pstack? Rework, failed checks, review comments, time, diff size.
+    validations:
+      required: true
+  - type: textarea
+    id: after
+    attributes:
+      label: With pstack
+      description: What changed with pstack? Use the same measures if possible.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Links to logs, commits, screenshots, or a redacted diff. Do not paste secrets or customer data.
+    validations:
+      required: false
+  - type: dropdown
+    id: quote
+    attributes:
+      label: Can we quote this report?
+      options:
+        - "Yes, with my GitHub handle"
+        - "Yes, anonymously"
+        - "No, for maintainers only"
+    validations:
+      required: true

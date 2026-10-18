@@ -2,6 +2,8 @@
 
 # pstack for Codex
 
+> 참고: 최신 채택 데이터와 커뮤니티 인용은 영어 및 중국어 README에 있습니다. 이 번역은 업데이트 중입니다.
+
 [![validate](https://github.com/lengjingxu/pstack-for-codex/actions/workflows/validate.yml/badge.svg)](https://github.com/lengjingxu/pstack-for-codex/actions/workflows/validate.yml)
 [![Stars](https://img.shields.io/github/stars/lengjingxu/pstack-for-codex?style=flat-square&color=4ade80)](https://github.com/lengjingxu/pstack-for-codex/stargazers)
 [![License](https://img.shields.io/github/license/lengjingxu/pstack-for-codex?style=flat-square)](LICENSE)
@@ -111,4 +113,3 @@ pstack은 [Lauren Tan](https://x.com/poteto) 의 작품이며 [cursor/plugins](h
 - [Français](README.fr.md)
 - [日本語](README.ja.md)
 - [한국어](README.ko.md)
-
