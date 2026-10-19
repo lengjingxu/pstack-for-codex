@@ -53,6 +53,7 @@ None yet. Open an issue with the **Usage report** template.
 | Date | Unique cloners | Clones | Stars | Forks | Open issues | Notes |
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
 | 2026-10-19 | 24 | 41 | 0 | 0 | 0 | Initial snapshot; no public usage reports or benchmarks. |
+| 2026-10-19 | 24 | 41 | 0 | 0 | 0 | Synced upstream `create-formal-verification-skill` (upstream commit 4382e68); skill count 54 → 55. |
 
 ## What would change this page
 

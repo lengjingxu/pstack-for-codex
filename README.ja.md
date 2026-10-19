@@ -8,7 +8,7 @@
 [![Stars](https://img.shields.io/github/stars/lengjingxu/pstack-for-codex?style=flat-square&color=4ade80)](https://github.com/lengjingxu/pstack-for-codex/stargazers)
 [![License](https://img.shields.io/github/license/lengjingxu/pstack-for-codex?style=flat-square)](LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/lengjingxu/pstack-for-codex?style=flat-square)](https://github.com/lengjingxu/pstack-for-codex/commits/main)
-![Skills](https://img.shields.io/badge/skills-54-4ade80?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-55-4ade80?style=flat-square)
 ![Playbooks](https://img.shields.io/badge/playbooks-23-4ade80?style=flat-square)
 ![Principles](https://img.shields.io/badge/principles-24-4ade80?style=flat-square)
 
@@ -17,7 +17,7 @@
 
 [English](README.md) | [中文](README.zh-CN.md) | [Français](README.fr.md) | [한국어](README.ko.md)
 
-スキル 54 個、プレイブック 23 個、原則 24 個。それらを振り分けるモードスキルが 1 つ。
+スキル 55 個、プレイブック 23 個、原則 24 個。それらを振り分けるモードスキルが 1 つ。
 
 ## 立場
 
@@ -73,7 +73,7 @@ Codex は新しいスキルを自動で検出します。表示されない場�
 2. `$poteto-mode <タスク>` がタスクをプレイブックに照合し、その手順を todo リストに写し、必要に応じて他のスキルを呼びます。
 3. どのスキルを使うか迷ったら `$poteto-help` に聞きます。
 
-`setup-pstack` 以外のすべてのスキルは明示的に呼び出したときだけ動きます。54 個入れてもスキル一覧のコンテキスト予算を圧迫しません。
+`setup-pstack` 以外のすべてのスキルは明示的に呼び出したときだけ動きます。55 個入れてもスキル一覧のコンテキスト予算を圧迫しません。
 
 ## 本家と異なる名前
 

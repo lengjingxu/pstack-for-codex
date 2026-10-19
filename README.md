@@ -8,7 +8,7 @@
 [![Last commit](https://img.shields.io/github/last-commit/lengjingxu/pstack-for-codex?style=flat-square)](https://github.com/lengjingxu/pstack-for-codex/commits/main)
 [![Release](https://img.shields.io/github/v/release/lengjingxu/pstack-for-codex?style=flat-square)](https://github.com/lengjingxu/pstack-for-codex/releases)
 ![Status](https://img.shields.io/badge/status-early%20build-orange?style=flat-square)
-![Skills](https://img.shields.io/badge/skills-54-4ade80?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-55-4ade80?style=flat-square)
 ![Playbooks](https://img.shields.io/badge/playbooks-23-4ade80?style=flat-square)
 ![Principles](https://img.shields.io/badge/principles-24-4ade80?style=flat-square)
 
@@ -16,7 +16,7 @@
 
 [中文](README.zh-CN.md) | [Français](README.fr.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-> **TL;DR** — 54 skills, 23 playbooks, 24 principles, one routing skill. For Codex users who want agent work that is planned, verified, and evidenced. Early build, no telemetry. If you try it, tell us what changed.
+> **TL;DR** — 55 skills, 23 playbooks, 24 principles, one routing skill. For Codex users who want agent work that is planned, verified, and evidenced. Early build, no telemetry. If you try it, tell us what changed.
 
 ## Why this port exists
 
@@ -26,9 +26,11 @@ This repo keeps the author's method intact and maps the Cursor-only pieces to Co
 
 ## What's inside
 
+**New in this port:** upstream added `/create-formal-verification-skill` in [commit 4382e68](https://github.com/cursor/plugins/commit/4382e687a50b8d2c5ce4d141d001186589cff8d5). It is ported here as `$create-formal-verification-skill`: a project-local skill that formally verifies one property where tests rarely reach, and that chooses the tool (model checker, SMT solver, proof assistant) from the question instead of prescribing one.
+
 | Item | Count |
 | --- | ---: |
-| Skills | 54 |
+| Skills | 55 |
 | Playbooks | 23 |
 | Principles | 24 |
 | Routing skill | 1 (`$poteto-mode`) |
@@ -138,7 +140,7 @@ Codex detects new skills automatically. If the set does not appear, restart Code
 2. `$poteto-mode <task>` matches the task to a playbook, copies its steps into the todo list, and runs the other skills as the steps need them.
 3. `$poteto-help` answers when you are not sure which skill fits.
 
-Every skill except `setup-pstack` is explicit invocation only, so installing 54 skills does not push the skill list over its context budget.
+Every skill except `setup-pstack` is explicit invocation only, so installing 55 skills does not push the skill list over its context budget.
 
 ## Names that differ from upstream
 
@@ -166,7 +168,7 @@ Open a [usage report](https://github.com/lengjingxu/pstack-for-codex/issues/new/
 ## Layout
 
 ```
-skills/                 54 skills, each with SKILL.md and agents/openai.yaml
+skills/                 55 skills, each with SKILL.md and agents/openai.yaml
   poteto-mode/          the routing mode, its 23 playbooks, and its scripts
   principle-*/          the 24 principles, read as leaves
   setup-pstack/         role models and reasoning budget

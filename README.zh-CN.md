@@ -8,7 +8,7 @@
 [![Last commit](https://img.shields.io/github/last-commit/lengjingxu/pstack-for-codex?style=flat-square)](https://github.com/lengjingxu/pstack-for-codex/commits/main)
 [![Release](https://img.shields.io/github/v/release/lengjingxu/pstack-for-codex?style=flat-square)](https://github.com/lengjingxu/pstack-for-codex/releases)
 ![Status](https://img.shields.io/badge/status-early%20build-orange?style=flat-square)
-![Skills](https://img.shields.io/badge/skills-54-4ade80?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-55-4ade80?style=flat-square)
 ![Playbooks](https://img.shields.io/badge/playbooks-23-4ade80?style=flat-square)
 ![Principles](https://img.shields.io/badge/principles-24-4ade80?style=flat-square)
 
@@ -16,7 +16,7 @@
 
 [English](README.md) | [Français](README.fr.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-> **一句话**：54 个技能，23 个 playbook，24 条原则，一个负责路由的技能。给想在 Codex 里做“有计划、有验证、有证据”的工程工作的用户。早期版本，没有遥测。用过之后，欢迎告诉我们哪里变了。
+> **一句话**：55 个技能，23 个 playbook，24 条原则，一个负责路由的技能。给想在 Codex 里做“有计划、有验证、有证据”的工程工作的用户。早期版本，没有遥测。用过之后，欢迎告诉我们哪里变了。
 
 ## 为什么有这个 Codex 移植
 
@@ -26,9 +26,11 @@
 
 ## 里面有什么
 
+**本次同步**：上游在 [commit 4382e68](https://github.com/cursor/plugins/commit/4382e687a50b8d2c5ce4d141d001186589cff8d5) 新增了 `/create-formal-verification-skill`，这里已移植为 `$create-formal-verification-skill`：为项目生成一个本地技能，针对“测试很难覆盖、但出错代价最高”的那处代码做一次形式化验证；工具不预设，按问题选模型检查器、SMT 求解器或证明助手。
+
 | 项目 | 数量 |
 | --- | ---: |
-| 技能 | 54 |
+| 技能 | 55 |
 | Playbook | 23 |
 | 原则 | 24 |
 | 路由技能 | 1（`$poteto-mode`） |
@@ -138,7 +140,7 @@ Codex 会自动发现新技能。如果没有出现，重启 Codex。
 2. `$poteto-mode <任务>`：把任务匹配到某个 playbook，将其步骤复制进待办列表，并按需调用其他技能。
 3. `$poteto-help`：不确定该用哪个技能时用它。
 
-除 `setup-pstack` 外，所有技能都只在显式调用时生效，所以装 54 个技能不会撑爆技能列表的上下文预算。
+除 `setup-pstack` 外，所有技能都只在显式调用时生效，所以装 55 个技能不会撑爆技能列表的上下文预算。
 
 ## 与上游不同的命名
 
@@ -166,7 +168,7 @@ Codex 会自动发现新技能。如果没有出现，重启 Codex。
 ## 目录结构
 
 ```
-skills/                 54 个技能，每个含 SKILL.md 与 agents/openai.yaml
+skills/                 55 个技能，每个含 SKILL.md 与 agents/openai.yaml
   poteto-mode/          路由模式、23 个 playbook 及其脚本
   principle-*/          24 条原则，按叶子技能读取
   setup-pstack/         角色模型与推理档位

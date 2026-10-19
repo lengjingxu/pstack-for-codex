@@ -8,7 +8,7 @@
 [![Stars](https://img.shields.io/github/stars/lengjingxu/pstack-for-codex?style=flat-square&color=4ade80)](https://github.com/lengjingxu/pstack-for-codex/stargazers)
 [![License](https://img.shields.io/github/license/lengjingxu/pstack-for-codex?style=flat-square)](LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/lengjingxu/pstack-for-codex?style=flat-square)](https://github.com/lengjingxu/pstack-for-codex/commits/main)
-![Skills](https://img.shields.io/badge/skills-54-4ade80?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-55-4ade80?style=flat-square)
 ![Playbooks](https://img.shields.io/badge/playbooks-23-4ade80?style=flat-square)
 ![Principles](https://img.shields.io/badge/principles-24-4ade80?style=flat-square)
 

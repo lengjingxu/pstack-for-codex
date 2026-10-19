@@ -8,7 +8,7 @@
 [![Stars](https://img.shields.io/github/stars/lengjingxu/pstack-for-codex?style=flat-square&color=4ade80)](https://github.com/lengjingxu/pstack-for-codex/stargazers)
 [![License](https://img.shields.io/github/license/lengjingxu/pstack-for-codex?style=flat-square)](LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/lengjingxu/pstack-for-codex?style=flat-square)](https://github.com/lengjingxu/pstack-for-codex/commits/main)
-![Skills](https://img.shields.io/badge/skills-54-4ade80?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-55-4ade80?style=flat-square)
 ![Playbooks](https://img.shields.io/badge/playbooks-23-4ade80?style=flat-square)
 ![Principles](https://img.shields.io/badge/principles-24-4ade80?style=flat-square)
 
@@ -17,7 +17,7 @@
 
 [English](README.md) | [中文](README.zh-CN.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-54 compétences. 23 playbooks. 24 principes. Une compétence de mode qui route les autres.
+55 compétences. 23 playbooks. 24 principes. Une compétence de mode qui route les autres.
 
 ## Position
 
@@ -73,7 +73,7 @@ Codex détecte les nouvelles compétences automatiquement. Si elles n'apparaisse
 2. `$poteto-mode <tâche>` associe la tâche à un playbook, copie ses étapes dans la liste de tâches et lance les autres compétences selon les besoins.
 3. `$poteto-help` répond quand vous hésitez sur la compétence à utiliser.
 
-Toutes les compétences sauf `setup-pstack` ne s'activent que sur invocation explicite : installer 54 compétences ne fait donc pas exploser le budget de contexte de la liste.
+Toutes les compétences sauf `setup-pstack` ne s'activent que sur invocation explicite : installer 55 compétences ne fait donc pas exploser le budget de contexte de la liste.
 
 ## Noms différents de l'amont
 
@@ -92,7 +92,7 @@ Renommées parce qu'une installation Codex classique possède déjà des compét
 ## Arborescence
 
 ```
-skills/                 54 compétences, chacune avec SKILL.md et agents/openai.yaml
+skills/                 55 compétences, chacune avec SKILL.md et agents/openai.yaml
   poteto-mode/          le mode de routage, ses 23 playbooks et ses scripts
   principle-*/          les 24 principes, lus comme feuilles
   setup-pstack/         modèles par rôle et budget de raisonnement
