@@ -17,6 +17,8 @@ Here's what you'll learn:
 
 Read the pages in order the first time. After that, each page stands alone.
 
+If you want the reasoning behind the order first, read [the method in one page](../METHOD.md). It is the short account of why research and prototyping come before a written plan.
+
 When you're stuck, or can't tell which skill fits, type [`$poteto-help`](../../skills/poteto-help/SKILL.md)) with your question:
 
 ```text

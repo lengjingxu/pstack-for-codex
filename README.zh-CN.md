@@ -75,6 +75,10 @@ pstack 不承诺一个基准分数。它改变的是工作流：把任务路由�
 
 把结果提交到 usage report；经你同意后，我们会把它加进采用记录。
 
+## 方法概览
+
+[docs/METHOD.zh-CN.md](docs/METHOD.zh-CN.md) 用一页讲清 playbook 如何决定“该做什么”：先让 agent 用自己的话复述问题，再用 `$how`、`$why`、`$recall`、`$pstack-teach` 补齐上下文，然后用原型和 `$architect` 做设计而不是空谈方案，等设计站住之后才写计划。内容压缩自上游作者的 [pstack 指南第二篇](https://x.com/poteto/status/2097732320606507506)，并标明了本移植版的差异。
+
 ## 社区引用
 
 这些链接用来解释“为什么要有 Codex 移植”，以及这套方法正在被怎么采用。它们是背景，不代表这些项目为本仓库背书。
