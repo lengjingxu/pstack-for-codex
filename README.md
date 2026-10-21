@@ -75,6 +75,10 @@ pstack does not promise a benchmark score. It changes the workflow: route the ta
 
 Report the result; we will add it to the adoption log with your permission.
 
+## The method, condensed
+
+[docs/METHOD.md](docs/METHOD.md) is a one-page account of how the playbooks decide what to build: restate the problem in the agent's own words, rebuild the mental model with `$how`, `$why`, `$recall`, and `$pstack-teach`, design through prototypes and `$architect` rather than prose, and write the plan only after the design holds. It condenses the upstream author's [guide to pstack, part two](https://x.com/poteto/status/2097732320606507506) and marks where this port differs.
+
 ## Community context
 
 These links explain why a Codex port exists and how the method is being adopted. They are context, not endorsements of this repository.
